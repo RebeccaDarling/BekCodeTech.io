@@ -1,0 +1,156 @@
+body {
+    background-image: url(/images/backgrounds/blackscratch.png);
+    height: 1000px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    background-color: hsla(208, 100%, 97%, .45);
+}
+
+#cert{
+    display: inline-box;
+    color: rgb(185, 255, 73);
+    text-transform: uppercase;
+}
+        
+#degree{
+    text-align: center;
+    width: 290px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 59px;
+}
+.aug{
+    background-color: rgb(15, 236, 240);
+    box-shadow: 29px 14px rgb(191, 2, 77);
+    width: 225px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left:30px
+
+}
+
+}
+.year1 {
+    text-align: left;
+    width: 89%;
+    color: greenyellow;
+    font-size: 20px;
+    padding-left: 15px;
+ } 
+
+ .oct1 {
+    background-color: rgb(204, 255, 0);
+    box-shadow: 29px 14px rgb(90, 154, 231);
+    width: 225px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 100px;
+ }
+
+#html, #css {
+    text-align: center;
+    width: 260px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 109px;
+ }
+
+
+ .november {
+    background-color: rgb(29, 255, 4);
+    box-shadow: 29px 14px rgb(231, 90, 177);
+    width: 225px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 200px;
+ }
+
+#rwebdesign {
+    text-align: center;
+    width: 380px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 220px;
+ }
+#fedl1{
+    text-align: center;
+    width: 500px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 227px;
+}
+ .december {
+    background-color: rgb(4, 226, 255);
+    box-shadow: 29px 14px rgb(255, 41, 41);
+    width: 225px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 290px;
+ }
+
+#fedl2 {
+    text-align: center;
+    width: 499px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 320px;
+ }
+ #qa {
+    text-align: center;
+    width: 360px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 294px;
+ }
+
+#bootst{
+    text-align: center;
+    width: 104px;
+    color: rgb(255, 129, 129);
+    font-size: 17px;
+    margin-left: 270px;
+}
+#jq{
+    text-align: center;
+    width: 80px;
+    color: rgb(255, 129, 129);
+    font-size: 17px;
+    margin-left: 270px;
+}
+
+  #sass, #react {
+    text-align: center;
+    width: 80px;
+    color: rgb(255, 129, 129);
+    font-size: 17px;
+    margin-left: 350px;
+ }
+
+ #chai {
+    text-align: center;
+    width: 342px;
+    color: rgb(255, 129, 129);
+    font-size: 17px;
+    margin-left: 352px;
+ }
+
+#year1{
+    width: 342px;
+    color: rgb(189, 175, 132);
+    font-size: 37px;
+    margin-left: 45px;
+}
+
+ #year2 {
+    width: 342px;
+    color: rgb(189, 175, 132);
+    font-size: 37px;
+    margin-left: 150px;
+ }
