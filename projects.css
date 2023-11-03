@@ -1,4 +1,7 @@
+body {
+    background-image: url(/images/2.png);
 
+}
 .card1{
     width: 900px;
     height: 500px;
@@ -22,18 +25,12 @@
     }
 }
 
-.card1head {
-    color:antiquewhite;
-    font-size: 26px;
-    text-align: center;
-    text-transform: uppercase;
-
-}
-
 .card1txt{
-    color: aliceblue;
-    margin-left: 25px;
-    font-size:20px;
+    color: rgb(91, 176, 251);
+    margin-left: 50%;
+    font-size:40px;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .box{
   margin: auto;
