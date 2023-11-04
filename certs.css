@@ -2,6 +2,8 @@ body {
     background-image: url(/images/blackscratch.png);
 background-size: cover;
 background-color: black;
+    max-width: 100%;
+    height: auto;
 }
 
 .h2 {
