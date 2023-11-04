@@ -1,20 +1,28 @@
-.body {
-    background-image: url(/Images/moon.png);
+body {
+    background-image: url(/images/moon.png);
+    background-size: cover;
     font-family: 'Lobster', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'MuseoModerno', sans-serif;
 }
 
-.h1 {
+.fname #h1 {
+    height: 180px;
+    padding-top: 100px;
     font-family: 'MuseoModerno', sans-serif;
-    font-size: 20px;
-    color:aliceblue;
-    margin: auto;
+    font-size: 180px;
+    color: azure;
+    margin-left: 35%;
+    margin-right: 50%;
 }
 
-.h2 {
+.lname #h2 {    
+    height: 160px;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    padding-bottom: 40px;
     font-family: 'Lobster', sans-serif;
-    font-size: 17px;
+    font-size: 160px;
     color: blueviolet;
-    margin-left: auto;
+    margin-left: 80%;
 }
