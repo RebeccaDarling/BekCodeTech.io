@@ -8,25 +8,27 @@ body {
     font-family: 'MuseoModerno', sans-serif;
 }
 
-
-
 .fname #h1 {
     height: 180px;
-    padding-top: 100px;
     font-family: 'MuseoModerno', sans-serif;
     font-size: 180px;
-    color: azure;
+    color: rgb(255, 255, 255);
     margin-left: 35%;
     margin-right: 50%;
+    padding-top: 100px;
 }
 
-.lname #h2 {    
-    height: 160px;
-    margin-top: 10%;
-    margin-bottom: 0%;
-    padding-bottom: 40px;
+.lname #h2 {   
+ 
     font-family: 'Lobster', sans-serif;
     font-size: 160px;
     color: blueviolet;
-    margin-left: 80%;
+    margin-left: 75%;
+   /* ** Testing Margins
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right:40%;
+   padding-bottom: 40px;
+   ** */
 }
