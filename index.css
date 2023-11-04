@@ -1,6 +1,7 @@
 body {
     background-image: url(/images/moon.png);
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Lobster', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'MuseoModerno', sans-serif;
