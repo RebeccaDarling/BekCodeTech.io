@@ -4,6 +4,7 @@
   font-weight: normal;
 }
 
+
 body {
   color: #555;
   background: #222;
@@ -48,10 +49,10 @@ h1 {
 .flip.flip-vertical > .back {
   transform: rotateX(-180deg);
 }
-.flip.flip-vertical:hover > .front {
+.flip.flip-vertical:click > .front {
   transform: rotateX(180deg);
 }
-.flip.flip-vertical:hover > .back {
+.flip.flip-vertical:click > .back {
   transform: rotateX(0deg);
 }
 
