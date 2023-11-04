@@ -1,0 +1,18 @@
+.card1 {
+    width: 300px;
+    height: 400px;
+    background-color: bisque;
+    animation: card1 2s ease 0s 1 normal forwards;
+}
+
+    @keyframes card1 {
+        0% {
+            opacity: 0;
+            transform: translateX(-250px) rotate(-200deg);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: translateX(0) rotate(0deg);
+        }
+    }

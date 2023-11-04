@@ -1,0 +1,31 @@
+
+
+.z-3 {
+    background-color: rgb(255, 0, 238);
+    width: 17px;
+    height: 190px;
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    z-index: 1; /* Lower z-index */
+
+}
+.z-2 {
+    background-color: rgb(0, 255, 255);
+    width: 16px;
+    height: 185px;
+    position: absolute;
+    top: 270px;
+    left: 80px;
+    z-index: 2;
+}
+
+.z-1{
+    background-color: rgb(153, 160, 240);
+    width: 18px;
+    height: 190px;
+    position: absolute;
+    top: 290px;
+    left: 90px;
+    z-index: 3; /* Highest z-index */
+}

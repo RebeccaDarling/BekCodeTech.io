@@ -1,0 +1,34 @@
+.navbar {
+    list-style-type: none;
+    background-color: rgb(90, 94, 89);
+    box-shadow: 29px 14px rgb(231, 90, 177);
+    min-width: 975px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+.navbar li {
+    display: inline;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 109px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff; /* Text color for navbar items */
+    font-weight: bold;
+
+}
+
+.navbar a:hover{
+    color: #5eff00; /* Text color for navbar items */
+    text-decoration: none;
+
+}
+.navbar:hover{
+    background-color:rgb(231, 90, 177);
+    box-shadow: 29px 14px rgb(90, 94, 89);
+}
