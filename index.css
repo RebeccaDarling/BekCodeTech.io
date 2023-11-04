@@ -1,5 +1,6 @@
 body {
-    background-image: url(/images/moon.png);
+    background-image: url(/images/blue\ purple.png);
+    background-color: rgb(1, 1, 60);
     max-width: 100%;
     height: auto;
     background-repeat: no-repeat;
@@ -13,8 +14,7 @@ body {
     font-family: 'MuseoModerno', sans-serif;
     font-size: 180px;
     color: rgb(255, 255, 255);
-    margin-left: 35%;
-    margin-right: 50%;
+    margin-left: 25%;
     padding-top: 100px;
 }
 
@@ -22,7 +22,7 @@ body {
  
     font-family: 'Lobster', sans-serif;
     font-size: 160px;
-    color: blueviolet;
+    color: rgb(131, 0, 254);
     margin-left: 55%;
    /* ** Testing Margins
     margin-top: 10%;
