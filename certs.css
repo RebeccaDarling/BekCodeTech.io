@@ -1,6 +1,7 @@
 body {
     background-image: url(/Images/blackscratch.png);
 background-size: cover;
+background-color: black;
 }
 
 h2 {
