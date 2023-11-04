@@ -1,5 +1,5 @@
 body {
-    background-image: url(/Images/pinkpurple.png);
+    background-image: url(/Images/moon.png);
     font-family: 'Lobster', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'MuseoModerno', sans-serif;
@@ -8,11 +8,13 @@ body {
 h1 {
     font-family: 'MuseoModerno', sans-serif;
     font-size: 20px;
-    color:aliceblue
+    color:aliceblue;
+    margin: auto;
 }
 
 h2 {
     font-family: 'Lobster', sans-serif;
     font-size: 17px;
     color: blueviolet;
+    margin-left: auto;
 }
