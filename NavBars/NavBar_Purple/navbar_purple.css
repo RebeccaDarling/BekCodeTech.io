@@ -1,0 +1,59 @@
+/* Common styles for both desktop and mobile navbars */
+.navbar {
+    background-color: rgb(163, 0, 163);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Styles for the desktop navbar */
+  .nav-desktop {
+    display: flex;
+    padding-left: 70%;
+  }
+  
+  .nav-desktop a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px; /* Push links to the right */
+  }
+  
+  /* Styles for the mobile navbar */
+  .nav-mobile {
+    display: none;
+    padding-left: 90%;
+  }
+  
+  #menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+ 
+  }
+  
+  #mobile-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+  }
+  
+  #mobile-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  /* Media query to show/hide the appropriate navbar based on screen width */
+  @media (max-width: 768px) {
+    .nav-desktop {
+      display: none;
+    }
+    .nav-mobile {
+      display: flex;
+    }
+  }
+  
