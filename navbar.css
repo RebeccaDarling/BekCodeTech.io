@@ -30,7 +30,7 @@ body {
   }
   @media (max-width: 768px) {
     .resizable-heading {
-      font-size: 28px; /* Adjust font size for mobile devices */
+      font-size: 128px; /* Adjust font size for mobile devices */
       margin-top: 0%;
     }
   }
@@ -48,7 +48,7 @@ body {
   @media (max-width: 768px) {
     .lname {
       top: 158px;
-      font-size: 22px; /* Adjust font size for mobile devices */
+      font-size: 122px; /* Adjust font size for mobile devices */
       margin-top: -7%;
       margin-left: 55%;
       position: absolute;
