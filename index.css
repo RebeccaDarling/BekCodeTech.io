@@ -7,29 +7,113 @@ body {
     font-family: 'Lobster', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'MuseoModerno', sans-serif;
-}
-
-
-.fname #h1 {
-    height: 180px;
+  }
+  @media (min-width: 768px) {
+    /* CSS for screens wider than 768px (typically desktops) */
+  }
+  
+  @media (max-width: 767px) {
+    /* CSS for screens up to 767px (typically mobile devices) */
+  }
+  
+  
+  /* Define the default font size for the heading */
+  .resizable-heading {
     font-family: 'MuseoModerno', sans-serif;
     font-size: 180px;
-    color: rgb(255, 255, 255);
-    margin-left: 25%;
-    padding-top: 100px;
-}
+    color: rgb(255, 255, 255); /* Default font size */
+    text-align: center;
+    margin-left: 15%;
 
-.lname #h2 {   
- 
+    margin-top: 0%;
+    
+  }
+  @media (max-width: 768px) {
+    .resizable-heading {
+      font-size: 128px; /* Adjust font size for mobile devices */
+    }
+  }
+  
+  .lname {
     font-family: 'Lobster', sans-serif;
     font-size: 160px;
-    color: rgb(131, 0, 254);
+    color: rgb(131, 0, 254); /* Default font size */
+    text-align: center;
+    margin: 0%;
+    top: 30%;
     margin-left: 55%;
-   /* ** Testing Margins
-    margin-top: 10%;
-    margin-bottom: 0%;
-    margin-left: 0%;
-    margin-right:40%;
-   padding-bottom: 40px;
-   ** */
-}
+    margin-top: -27%;
+
+  }
+  
+  /* Use a media query to change the font size for smaller screens (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .lname {
+ 
+      font-size: 160px; /* Adjust font size for mobile devices */
+      margin-top: -7%;
+      margin-left: 55%;
+      position: absolute;
+    }
+  }
+  
+  
+  /* Common styles for both desktop and mobile navbars */
+  .navbar {
+      background-color: rgb(163, 0, 163);
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    
+    /* Styles for the desktop navbar */
+    .nav-desktop {
+      display: flex;
+      padding-left: 70%;
+    }
+    
+    .nav-desktop a {
+      text-decoration: none;
+      color: #fff;
+      margin-right: 15px; /* Push links to the right */
+    }
+    
+    /* Styles for the mobile navbar */
+    .nav-mobile {
+      display: none;
+      padding-left: 90%;
+    }
+    
+    #menu-icon {
+      font-size: 24px;
+      cursor: pointer;
+   
+    }
+    
+    #mobile-menu {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #333;
+    }
+    
+    #mobile-menu a {
+      text-decoration: none;
+      color: #fff;
+      padding: 10px 20px;
+      display: block;
+    }
+    
+    /* Media query to show/hide the appropriate navbar based on screen width */
+    @media (max-width: 768px) {
+      .nav-desktop {
+        display: none;
+      }
+      .nav-mobile {
+        display: flex;
+      }
+    }
+    
