@@ -51,8 +51,6 @@ body {
     .lname {
  
       font-size: 160px; /* Adjust font size for mobile devices */
-      margin-top: -7%;
-      margin-left: 55%;
       position: absolute;
     }
   }
