@@ -9,36 +9,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
+    <title>About Me Example</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-  <body>
-   <nav class="navbar">
-      <div class="nav-desktop">
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/projects.html">Projects</a>
-        <a href="/certs.html">Certifications</a>
-        <a href="/contact.html">Contact</a>
-      </div>
-      <div class="nav-mobile">
-        <span id="menu-icon">&#9776;</span>
-        <div id="mobile-menu">
-            <a href="/index.html">Home</a>
-            <a href="/about.html">About</a>
-            <a href="/projects.html">Projects</a>
-            <a href="/certs.html">Certifications</a>
-            <a href="/contact.html">Contact</a>
-        </div>
-      </div>
-    </nav>
-    <!-- Example Code -->
-    
-    <div class="z-3"><span></span></div>
-    <div class="z-2"><span></span></div>
-    <div class="z-1"><span></span></div>   
-<!-- End Example Code -->
 
-<div class="card1">Hello</div>
+
+
+    <style>
+        /* Reset some default styles */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Navigation styles */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        /* Main content container */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Responsive layout for the main content */
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Front-End Developer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is where you can introduce yourself and provide some background information.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Showcase your work with project descriptions, images, and links.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Provide contact information or a contact form for inquiries.</p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2023 Your Portfolio. All rights reserved.
+    </footer>
 </body>
 </html>
+
