@@ -10,10 +10,14 @@ body {
   }
   @media (min-width: 768px) {
     /* CSS for screens wider than 768px (typically desktops) */
+max-width: 100%;
+
   }
   
   @media (max-width: 767px) {
     /* CSS for screens up to 767px (typically mobile devices) */
+max-width: 100%;
+
   }
   
   
@@ -30,7 +34,7 @@ body {
   }
   @media (max-width: 768px) {
     .resizable-heading {
-      font-size: 128px; /* Adjust font size for mobile devices */
+      font-size: 100%; /* Adjust font size for mobile devices */
     }
   }
   
@@ -50,8 +54,7 @@ body {
   @media (max-width: 768px) {
     .lname {
  
-      font-size: 160px; /* Adjust font size for mobile devices */
-      position: absolute;
+      font-size: 100%; /* Adjust font size for mobile devices */
     }
   }
   
@@ -81,7 +84,7 @@ body {
     /* Styles for the mobile navbar */
     .nav-mobile {
       display: none;
-      padding-left: 90%;
+      padding-left: 80%;
     }
     
     #menu-icon {
